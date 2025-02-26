@@ -10,4 +10,7 @@ $ pip install fonttools
 
 # Add a BASE table
 $ python add_base.py myfont.ttf
+
+# Inspect it
+$ ttx -o - -t BASE myfont.ttf
 ```
